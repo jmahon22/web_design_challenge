@@ -10,12 +10,16 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="landing.html">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      <ul class="nav nav-tabs">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container navbar">
+      <ul class="navbar-nav mr-auto">
+      <a class="navbar-brand" href="landing.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
           <div class="dropdown-menu">
@@ -23,18 +27,25 @@
             <a class="dropdown-item" href="humidity.html">Humidity</a>
             <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
             <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="comparison.html">Comparison</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="data.html">Data</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="text-center">
-        <h3>Latitude vs. Cloudiness</h3>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="comparison.html">Comparison</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="data.html">Data</a>
+    </li>
+    </ul>
+    </ul> 
+  </div>
+  </div>
+</div>
+</nav>
+
+      <div class="container">
+        <div class="row">
+          <div class ="col-lg-8 col-md-12">
+        <h2 class="Cloudiness">Latitude vs. Cloudiness</h2>
         <img src="Images/Fig3.png" class="img-fluid" alt="Cloudiness Plot">
         <p>Here we compare city locations and overall 
           We can't make any discernible conclusions from this scatter plot. 
