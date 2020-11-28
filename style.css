@@ -17,15 +17,17 @@ a.navbar-brand {
   font-size: 20px ;
   height: 60px;
 }
+
 .nav-item.dropdown.show {
-  background-color: rgb(24, 94, 173);
+  background-color: rgb(5, 58, 58);
 }
+
 .dropdown-menu {
   margin: 0;
   overflow: visible;
 }
 
-/* Website background */
+/* Background */
 
 body{
   background-color: #a71414;
@@ -40,32 +42,53 @@ body{
   color: #213159;
   background-color: white;
   border: 20px;
+  font-size: 15px
 }
 
-.container.p {
-  padding-left: 10px;
-}
-
-.col-md-12 {
+.summary {
   background-color: white;
   padding-top: 20px;
   padding-bottom: 40px;
 }
 
-#Thumbnail {
-  width: 200px;
-  height: auto;
-  border: thin;
+/* Headers  */
+h2 {
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(5, 58, 58);
+  font-size: 20px;
 }
+
+h3 {
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(5, 58, 58);
+  font-size: 20px;
+}
+
+h4 {
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(5, 58, 58);
+  font-size: 20px;
+}
+
+h5 {
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(5, 58, 58);
+  font-size: 20px;
+}
+
+/* Paragraphs */
 
 p {
   display: inline;
   font-size: 18px;
-  color: darkslategray;
+  color: rgb(5, 58, 58);
 }
 
-/*Temperature */
-
+/* Plot Pages */
 .Temperature {
   align-items: center;
   margin-top: 0px;
@@ -74,8 +97,6 @@ p {
   color: #213159;
   background-color: white;
 }
-
-/* Humidity */
 
 .Humidity {
   align-items: center;
@@ -86,10 +107,6 @@ p {
   background-color: white;
 }
 
-
-
-/* Cloudiness */
-
 .Cloudiness {
     align-items: center;
     margin-top: 0px;
@@ -99,36 +116,11 @@ p {
     background-color: white;
   }
 
-
-/* Windspeed */
-
 .Windspeed {
   align-items: center;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 10px;
   color: #213159;
-  background-color: white;
-}
-
-
-/*comparison*/
-
-.container.image-grid{
-  background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  
-}
-.image-grid.img{
-  width: 200px;
-  text-align: center;
-  
-
-}
-
-/*Data Table*/
-
-.container table{
   background-color: white;
 }
